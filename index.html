@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Тренировка Java Script</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- OG Tags -->
+	<meta property="og:title" content="Тренировка Java Script">
+	<meta property="og:description" content="">
+	<meta property="og:type" content="article">
+	<meta property="og:image" content="">
+	<meta property="og:site_name" content="Тренировка Java Script">
+	<!-- Styling -->
+	<meta name="theme-color" content="#808590">
+	<link rel="apple-touch-icon" href="">
+	<link rel="icon" type="" href="images/image 1.svg">
+	<!-- CSS -->
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="container">
+            <a class="logo" href="#"></a>
+            <h1 class="header-title">Тренировка Javascript</h1>          
+        </div>      
+    </header>
+    <section class="tabs" id="tabs">
+        <div class="container">
+            <h2 class="title">1. Табы</h2>
+            <div class="tabs-wrapper">
+                <div class="tabs-cards" id="tabs-cards">
+                    <button type="button" class="btn" data-btn="1">Жираф</button>
+                    <button type="button" class="btn" data-btn="2">Олень</button>
+                    <button type="button" class="btn active " data-btn="3">Козочка</button>
+                    <button type="button" class="btn" data-btn="4">Бурундук</button>
+                </div>
+                <div class="contents" id="contents">
+                    <div class="content" data-content="1">
+                        <h2 class="content__title">Жираф</h2>
+                        <p class="content__text">Жира́ф (лат. Giraffa camelopardalis; зарафа) — парнокопытное млекопитающее из семейства жирафовых. Является самым высоким наземным животным планеты.<br><br>Самцы жирафа достигают высоты до 5,5—6,1 м (около 1/3 длины составляет шея) и весят до 900—1200 кг. Самки, как правило, немного меньше и легче.Шея у жирафов необычайно длинная, и это несмотря на то, что у них, как и почти у всех других млекопитающих, лишь семь шейных позвонков.</p>
+                    </div>
+                    <div class="content" data-content="2">
+                        <h2 class="content__title">Олень</h2>
+                        <p class="content__text">оле́ни (лат. Cervidae), — семейство парнокопытных млекопитающих, содержащее 51 современный вид[1]. Оленевые распространены в Евразии, Северной и Южной Америке, а также были завезены человеком в Австралию и Новую Зеландию.<br><br> Величина оленевых варьируется между величиной зайца (пуду) и лошади (лось). Характерны разветвлённые рога, которые имеются в наличии только у самцов. Исключениями являются только водяной олень, у которого вообще нет рогов, и северный олень, у которого рога носят оба пола.</p>
+                    </div>
+                        <div class="content active" data-content="3">
+                            <h2 class="content__title">Козочка</h2>
+                            <p class="content__text">Домашняя коза (лат. Capra hircus) — домашнее животное, вид парнокопытных из рода горные козлы (Capra) семейства полорогих <br><br> Коза — одно из первых прирученных животных. Одомашнена на Ближнем Востоке, приблизительно 9 тыс. лет назад. Предком домашней козы был дикий безоаровый козёл (Capra hircus aegagrus), до сегодняшнего дня встречающийся от греческих островов в Эгейском море через Малую Азию, Армянское нагорье и Переднюю Азию до Средней Азии.</p>
+                        </div>
+                    <div class="content" data-content="4">
+                        <h2 class="content__title">Бурундук</h2>
+                        <p class="content__text">Бурундуки́ (лат. Tamiini[1][2], или Tamiina[3], от др.-греч. τᾰμίᾱς — «заведующий хозяйством», «эконом») — монофилетическая группа грызунов из семейства беличьих. Согласно классификации, принимаемой Красной книгой МСОП, существует три самостоятельных рода бурундуков: Neotamias, Eutamias и Tamias (традиционно рассматривались как подроды рода Tamias)[4]. Всего описано 25 современных видов бурундуков, большинство из которых обитает в Северной Америке, за исключением одного евразийского вида — азиатского, или сибирского, бурундука (Eutamias sibiricus).</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<Section class="modalwindow" >
+    <div class="container">
+        <h2 class="title"> 2. Модальное окно</h2>
+        <button type="button" class="modal-btn" id="modal-btn" >Вызвать дождь</button>
+    </div>
+    <div class="modal-wrapper" id="modal-wrapper">
+        <div class="overlay" id="overlay"></div>
+        <div class="modal-window" id="modal-window">
+            <div class="modal-window__btn" id="modal-window__btn">
+            </div>
+                <h2 class="modal-window__title">Немного о дожде</h2>
+            <div class="modal-window__content">
+                <p class="modal-window__par">Дождь — атмосферные осадки, выпадающие из облаков в виде капель жидкости со средним диаметром от 0,5 до 6—7 мм[1]  Осенние дожди.Южная Эстония Летний дождь в Санкт-Петербурге даже при сильнейшем ливне диаметр капель не превышает 6—7 мм. Интенсивность дождя обычно составляет от 0,25 мм/ч (моросящий дождь) до 100 мм/ч (ливень)[1]. В Европе самый сильный ливень с интенсивностью 15,5 мм/мин был зафиксирован в 1920 году в Германии[2].</p>
+            </div>
+        </div>
+    </div>  
+</Section>
+
+<section class="slider" >
+    <div class="container">
+        <h2 class="title">3. Слайдер</h2>
+            <div class="slider-wrapper">
+                <div class="slide active">
+                    <img src="images/photo1.jpg" alt="photo">
+                </div>
+                <div class="slide">
+                    <img src="images/photo2.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="images/photo3.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="images/photo4.jpg" alt="">
+                </div>
+                <button type="butto" class="arrow" id="btn-prev"></button> 
+                <button type="button" class="arrow" id= "btn-next"></button> 
+                <div class="square-wrapper">
+                    <button type="button" class="square active"></button>
+                    <button type="button" class="square"></button>
+                    <button type="button" class="square"></button>
+                </div>
+        </div>
+</section>
+    <script src="main.js"></script>
+</body>
+</html>
